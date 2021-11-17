@@ -1,0 +1,274 @@
+body,a
+{
+    font-family: IRANSans;
+}
+a {
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+a:hover {
+	text-decoration: none;
+}
+.web-shadow {
+	box-shadow: 0 5px 20px rgba(0, 0, 0, .05);
+}
+.web-header-section
+{
+    background: #FF416C; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FF4B2B, #FF416C); 
+    height: 50px;
+    font-family: IRANSans5;
+    
+}
+#top-nav a
+{
+    margin-bottom: 8px;
+    font-size: 1rem;
+}
+@media screen and (max-width: 992px){
+    #web-header-menu1 {
+        background: #ffffff;
+        border-radius: .25rem;
+        z-index: 100;
+        padding: 5px 8px;
+    }
+    #web-head-nav1 a
+    {
+        color: #838181 !important;
+    }
+    #web-head-nav1 a:hover
+    {
+        color: #FF416C !important;
+    }
+}
+
+#web-header-menu1 ul li
+{
+    margin-bottom: 8px;
+    font-size: 1rem;
+    height: 100%;
+}
+.web-landing-section
+{
+    background-image: url(images/header-cover.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.landing-cover
+{
+    background-color: #75778cd8;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+#nav-bottom
+{
+    padding-top: 65px;
+}
+.nav-item a
+{
+    color: white;
+}
+.nav-item.active a
+{
+    color: white;
+    background: #FF416C;
+    background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C); 
+    background: linear-gradient(to right, #FF4B2B, #FF416C); 
+    border-radius: 20px;
+    display: inline-block;
+    /* margin-bottom: 30px; */
+}
+#landing-box
+{
+    padding-top: 130px;
+}
+#landing-box button
+{
+    border-radius: 20px;
+}
+#landing-box p
+{
+    line-height: 30px;
+}
+.web-ads-section
+{
+    color: white;
+    background: #FF416C;
+    background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C); 
+    background: linear-gradient(to right, #FF4B2B, #FF416C); 
+    padding-bottom: 330px;
+    position: relative;
+}
+.web-ads-section h4
+{
+    color: white;
+}
+#web-ads-box a
+{
+    color: white;
+}
+.nav-tabs .nav-link {
+    border: 0px !important ;
+}
+.nav-tabs .nav-link:hover
+{
+    box-shadow: 0 5px 20px rgb(0 0 0 / 5%);
+}
+/* .nav-item1.active a
+{
+    color: #f45665 !important;
+    background-color: #fff;
+} */
+.nav-item1 a.active {
+	color: #fb4275 !important;
+	background-color: #fff !important;
+}
+.nav-item1 a.active h4 {
+	color: #fff !important;
+}
+.nav-tabs {
+    border-bottom: none;
+}
+.web-pricing-content
+{
+    padding-top: 100px;
+}
+.list-unstyled
+{
+    line-height: 0.5rem;
+    font-size: 12.8px;
+}
+#ads-box
+{
+    background-color: white;
+    margin-top: -80px;
+    margin-bottom: 60px;
+}
+#ads-btn
+{
+    background-color: #fafafa;
+    font-size: 12.8px;
+    color: #a0a1b3;
+}
+#ads-btn:hover
+{
+    color: #fff;
+    background: #FF416C;
+    background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C); 
+    background: linear-gradient(to right, #FF4B2B, #FF416C);
+}
+.web-ads-boxs
+{
+    position: relative;
+    padding-bottom: 30px;
+}
+.web-ads-boxs h4
+{
+    margin-top: -180px;
+    position: absolute;
+    color: white;
+}
+.goods
+{
+    background-color: #fafafa;
+}
+.carousel-indicators {
+	bottom: -15px;
+}
+.carousel-indicators li {
+	height: 10px;
+	background: #818181;
+	border: 0;
+	border-radius: 20px;
+	opacity: 1;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+.carousel-indicators li:hover {
+	background: #fb4275;
+}
+.carousel-indicators li.active {
+	width: 45px;
+	background: #fb4275;
+}
+.web-information-section
+{
+    background-color: #fafafa;
+}
+.web-information-section h5,h3,h4
+{
+    color: #FF416C;
+}
+.carousel-item p
+{
+    background-color: #fff;
+    border-radius: 16px;
+}
+.web-popular-section
+{
+    background-image: url(images/celebrities_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: 40px 0; */
+    /* position: relative; */
+}
+
+.web-popular-heading
+{
+    color: #FF416C;
+}
+.web-popular-box h5
+{
+    background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C); 
+    background: linear-gradient(to right, #FF4B2B, #FF416C);
+    border-radius: 12px;
+    padding: 5px 20px;
+    display: inline;
+    color: white;
+}
+.web-information-section img
+{
+    width: 100%;
+}
+#web-information-btn
+{
+    color: #fff;
+    background: #FF416C;
+    background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C); 
+    background: linear-gradient(to right, #FF4B2B, #FF416C);
+    border-radius: 20px;
+    padding: 7px 30px;
+}
+.web-footer-section p
+{
+    font-size: 12.8px;
+}
+.web-footer-section h6
+{
+    color: #FF416C;
+}
+#list-link
+{
+    direction: ltr !important;
+    color: #FF416C;
+}
+#footer2
+{
+    font-size: 12.8px;
+}
+#footer2 span
+{
+    line-height: 25px;
+}
+.footer-right-lists a
+{
+    line-height: 25px;
+}
